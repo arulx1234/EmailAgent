@@ -1,0 +1,30 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+token.json
+**/token.json
+
+# Local data and logs
+*.sqlite3
+*.sqlite3-*
+*.db
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# JavaScript
+node_modules/
+dist/
+dist-ssr/
+
+# Editors and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

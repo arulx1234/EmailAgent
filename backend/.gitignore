@@ -1,0 +1,7 @@
+venv/
+.env
+__pycache__/
+*.pyc
+token.json
+.auth_sessions.sqlite3*
+.mail_cache.sqlite3*
